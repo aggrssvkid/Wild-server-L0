@@ -1,0 +1,11 @@
+CREATE TABLE books (
+  id	  varchar(255) not null primary key,
+  title   varchar(255) NOT NULL,
+  author  varchar(255) NOT NULL,
+  price   varchar(255) NOT null
+);
+
+INSERT INTO books (id, title, author, price) VALUES
+('123', 'Emma', 'Jayne Austen', '100'),
+('17q', 'The Time Machine', 'H. G. Wells', '150'),
+('lol', 'The Prince', 'Niccolò Machiavelli', '200')
